@@ -1,0 +1,50 @@
+.bbpress_post_ratings_user_rating{
+	width:80px;
+	margin:0 auto;
+	background:#DDD;
+	-moz-border-radius:10px 10px 0px 0px;
+	-webkit-border-radius:10px 10px 0px 0px;
+	border-radius:10px 10px 0px 0px;
+}
+
+.bbpress_post_ratings_rate_area{
+	float:right;
+	margin-right:10px;
+}
+
+.bbpress_post_ratings_rate_post_text{
+	color:#BBB;
+}
+
+.bbpress_post_ratings_post_rating{
+	margin:0px 5px;
+	font-weight:bold;
+}
+
+.bbpress_post_ratings_rate_trigger, .bbpress_post_ratings_rate_trigger:hover, .bbpress_post_ratings_rate_trigger:focus{
+	text-decoration:none;
+}
+
+.bbpress_post_ratings_rate_trigger{
+	display:inline-block;
+	width:18px;
+	height:18px;
+	margin:0px 1px;
+	vertical-align:top;
+}
+
+.bbpress_post_ratings_rate_trigger_up{
+	background-image:url('./images/thumbs_up.png');
+}
+
+.bbpress_post_ratings_rate_trigger_down{
+	background-image:url('./images/thumbs_down.png');
+}
+
+.bbpress_post_ratings_rate_trigger_active.bbpress_post_ratings_rate_trigger_up{
+	background-image:url('./images/thumbs_up_active.png');
+}
+
+.bbpress_post_ratings_rate_trigger_active.bbpress_post_ratings_rate_trigger_down{
+	background-image:url('./images/thumbs_down_active.png');
+}

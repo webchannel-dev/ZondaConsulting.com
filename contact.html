@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='http://fonts.googleapis.com/css?family=Tenor+Sans' rel='stylesheet' type='text/css'>
+        <title>ZONDA CONSULTING CONTACT PAGE </title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="htdocs/css/main.css" type="text/css"/>
+        <script
+            src="http://maps.googleapis.com/maps/api/js?key=AIzaSyDY0kkJiTPVd2U7aTOAwhc9ySH6oHxOIYM&sensor=false">
+        </script>
+
+        <script>
+            var myCenter = new google.maps.LatLng(25.259804, 55.320904);
+            var marker;
+
+            function initialize()
+            {
+                var mapProp = {
+                    center: myCenter,
+                    zoom: 50,
+                    mapTypeId: google.maps.MapTypeId.TERRAIN
+                };
+
+                var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+
+                marker = new google.maps.Marker({
+                    position: myCenter,
+                    icon: 'htdocs/img/small-logo.png',
+                    animation: google.maps.Animation.BOUNCE
+                });
+
+
+                marker.setMap(map);
+            }
+
+            google.maps.event.addDomListener(window, 'load', initialize);
+        </script>
+        <script type="text/javascript" src="htdocs/js/analyticstracking.js"></script>
+    </head>
+    <body>
+    <center>
+        <div id="wrapper">
+            <div style="position:absolute; left:0px; top:0px; width:1024px; height:252px;" title="">    
+                <img src="htdocs/img/ContactPage_01.png" width="1024px" height="252px" usemap="#Navigation" border="0"/>
+                <map name="Navigation">
+                    <area shape="rect" coords="451,181,511,203" href="about.html">
+                    <area shape="rect" coords="544,182,587,202" href="http://www.zondaconsulting.com/forum">
+                    <area shape="rect" coords="618,181,679,203" href="client.html">
+                    <area shape="rect" coords="707,181,785,203" href="carrers.php">
+                    <area shape="rect" coords="810,182,886,204" href="contact.html">
+                    <area shape="poly" coords="110,117,389,148,337,237,137,242" href="http://www.zondaconsulting.com/">
+                </map>
+            </div>
+            <div style="background-image:url(htdocs/img/ContactPage_02.png); position:absolute; left:0px; top:252px; width:1024px; height:412px;" title="">
+
+                <div id="googleMap" style="width:280px;height:280px;position: absolute; right: 150px; top:30px;"></div>
+                <div style="text-align: left; position: absolute; left: 250px;">
+                    <h3>CONTACT US</h3>
+                    <p ><img src="htdocs/img/HOME.ico" width="25" height="25" style="position: relative; top:5px; left: -5px;"/>Emirates Concorde Hotel<br/>Office Tower , Office 1305<br/>Maktoum road , Deira<br/>Dubai , United Arab Emirates</p>
+                    <p ><img src="htdocs/img/PHONE.ico" width="25" height="25" style="position: relative; top:8px; left: -5px;"/>+971.4.2951032</p>
+                    <p ><img src="htdocs/img/FAX.ico" width="25" height="25" style="position: relative; top:5px; left: -5px;"/>+971.4.2951030</p>
+                    <p ><img src="htdocs/img/MAIL.ico" width="25" height="25" style="position: relative; top:8px; left: -5px;"/>info@zondaconsulting.com</p>
+                    <p ><img src="htdocs/img/INTERNET.B.ico" width="25" height="25" style="position: relative; top:8px; left: -5px;"/>http://www.ZondaConsulting.com</p>
+
+                </div>
+            </div>
+            <div style=" position:absolute; left:0px; top:664px; width:1024px; height:286px;" title="">
+
+                <img src="htdocs/img/ContactPage_03.png" width="1024px" height="286px" usemap="#Map"  border="0"/>
+                <map name="Map">
+                    <area shape="rect" coords="160,220,261,237" href="http://zondaconsulting.com/">
+                    <area shape="circle" coords="733,242,25" href="https://www.facebook.com/ZondaConsultingUAE" target="_new">
+                    <area shape="circle" coords="854,248,24" href="https://twitter.com/Zondaconsulting" target="_new">
+                    <area shape="circle" coords="913,245,24" href="http://ae.linkedin.com/pub/zonda-consulting/70/612/b19" target="_new">
+                    <area shape="circle" coords="791,247,26" href="http://www.mavajsunco.com" target="_new">
+                </map>
+
+            </div>
+
+        </div>
+    </center>
+</body>
+</html>
